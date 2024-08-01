@@ -16,24 +16,24 @@ We can observe that the average price for four-bedroom houses sold fluctuates sl
 
 #### What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 
-![question_4](images/question_4.JPG)
+![question_4](Images/question_4.JPG)
 
 We can observe that the average price of homes with 3 bedrooms and 3 bathrooms does not show a consistent increasing or decreasing trend based solely on the year the home was built. The average prices fluctuate without a clear pattern or linear progression from year to year.
 
 #### What is the average price of a home for each year built that have 3 bedrooms, 3 bathrooms, with two floors, and are greater than or equal to 2,000 square feet rounded to two decimal places?
 
-![question_5](images/question_5.JPG)
+![question_5](Images/question_5.JPG)
 
 We can observe that the average price of homes with 3 bedrooms and 3 bathrooms does not show a consistent increasing or decreasing trend based solely on the year the home was built. The average prices fluctuate without a clear pattern or linear progression from year to year.
 
 #### Using the original, cached data and parquet formatted data, run the query that filters out the view ratings with average price of a home, rounded to two decimal places, where the homes are greater than or equal to $350,000? Determine the run time for this query.
 
 ##### Original data
-![question_6](images/question_6.JPG)  
+![question_6](Images/question_6.JPG)  
 #####  Cached data
-![question_9](images/question_9.JPG) 
+![question_9](Images/question_9.JPG) 
 ##### Parquet formatted data
-![question_13](images/question_13.JPG)
+![question_13](Images/question_13.JPG)
 
 Based on the runtime results, it's evident that both the cached data and the Parquet formatted data have faster runtimes compared to the original data. This can be attributed to the optimizations and benefits offered by caching and using the Parquet data format.
 
