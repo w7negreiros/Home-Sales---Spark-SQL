@@ -31,7 +31,7 @@ We can observe that the average price of homes with 3 bedrooms and 3 bathrooms d
 ##### Original data
 ![question_6](Images/question_6.JPG)  
 #####  Cached data
-![question_9](Images/question_9.JPG) 
+![question_9](Images/question_9.JPG)
 ##### Parquet formatted data
 ![question_13](Images/question_13.JPG)
 
