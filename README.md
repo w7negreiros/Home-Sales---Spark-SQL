@@ -9,30 +9,31 @@ Use SparkSQL to determine key metrics about home sales data. Then use Spark to c
 
 #### What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
 
+![question_3](Images/question_3.JPG)
 
 We can observe that the average price for four-bedroom houses sold fluctuates slightly from year to year. In 2019, the average price was $300,263.70, which decreased slightly to $298,353.78 in 2020. However, the trend reversed in 2021, with the average price rising to $301,819.44. Finally, in 2022, the average price decreased again to $296,363.88.
 
 
 #### What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 
-![q4](images/q4.JPG)
+![question_4](images/question_4.JPG)
 
 We can observe that the average price of homes with 3 bedrooms and 3 bathrooms does not show a consistent increasing or decreasing trend based solely on the year the home was built. The average prices fluctuate without a clear pattern or linear progression from year to year.
 
 #### What is the average price of a home for each year built that have 3 bedrooms, 3 bathrooms, with two floors, and are greater than or equal to 2,000 square feet rounded to two decimal places?
 
-![q5](images/q5.JPG)
+![question_5](images/question_5.JPG)
 
 We can observe that the average price of homes with 3 bedrooms and 3 bathrooms does not show a consistent increasing or decreasing trend based solely on the year the home was built. The average prices fluctuate without a clear pattern or linear progression from year to year.
 
 #### Using the original, cached data and parquet formatted data, run the query that filters out the view ratings with average price of a home, rounded to two decimal places, where the homes are greater than or equal to $350,000? Determine the run time for this query.
 
 ##### Original data
-![q6](images/q6.JPG)  
+![question_6](images/question_6.JPG)  
 #####  Cached data
-![q9](images/q9.JPG) 
+![question_9](images/question_9.JPG) 
 ##### Parquet formatted data
-![q13](images/q13.JPG)
+![question_13](images/question_13.JPG)
 
 Based on the runtime results, it's evident that both the cached data and the Parquet formatted data have faster runtimes compared to the original data. This can be attributed to the optimizations and benefits offered by caching and using the Parquet data format.
 
